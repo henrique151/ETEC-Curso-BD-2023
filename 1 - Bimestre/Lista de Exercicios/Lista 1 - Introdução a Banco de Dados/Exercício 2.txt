@@ -1,0 +1,22 @@
+Entidade: Consulta Médica
+
+	Atributos: Nome do Paciente.
+		   Data.
+	           Horário.
+
+Entidade: Editora 
+		
+  	 Atributos: 
+		    Nome do Livro.
+ 		    Nome do Autor.
+		    Nome do Gênero.
+		   
+
+Entidade: Filme
+
+	Atributos: Nome do Filme.
+                   Nome do Diretor.
+	           Nome do Ator.
+		   Nome do Gênero.
+		   Duração.
+	          

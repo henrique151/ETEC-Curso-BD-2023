@@ -1,0 +1,2 @@
+- No MER, as tabelas tem que possuir "nome".
+- Você "misturou" DER com MER.

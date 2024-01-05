@@ -1,0 +1,1 @@
+- As linhas do Relacionamento não podem ficar sobrepostas.
