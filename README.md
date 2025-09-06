@@ -1,44 +1,62 @@
-# ETEC - Programação Web 2023
+# Banco de Dados - ETEC 2023
 
-Bem-vindo ao repositório de estudos e exercícios do curso de **Programação Web** da ETEC 2023! Aqui você encontra listas de exercícios, projetos, materiais de apoio e exemplos práticos organizados por bimestre, acompanhando a evolução do conteúdo ao longo do ano letivo.
+Bem-vindo ao repositório de estudos e exercícios do curso de **Banco de Dados** da ETEC 2023! Aqui você encontra listas de exercícios, scripts SQL, projetos e materiais de apoio, organizados por bimestre, para facilitar seu aprendizado e prática com bancos de dados relacionais.
 
 ---
 
 ## 📂 Estrutura de Pastas
 
-Abaixo está a estrutura de diretórios do projeto, com uma breve explicação sobre cada item:
+Abaixo está a estrutura de diretórios do projeto, com foco nos arquivos de banco de dados:
 
-bash
 ```
-etec-prog-web-2023/
+ETEC-Curso-BD-2023/
 ├── 1-Bimestre/
-│   ├── Lista-01_Conhecendo-PHP/           # Exercícios introdutórios de PHP
-│   ├── Lista-02_Formularios/              # Exercícios sobre formulários em PHP
+│   ├── Lista de Exercicios/
+│   │   ├── Lista 1 - Introdução a Banco de Dados/
+│   │   ├── Lista 2 - Dicionário de Dados/
+│   │   ├── Lista 3 - SQL - Criação de Bds e Tabelas/
+│   │   ├── Lista 4 - Inclusão - SQL/
+│   │   └── Lista 5 - Exclusão - SQL/
 │   ├── PDFs/
-│   │   └── apostila-introducao-php.pdf    # Apostila de introdução ao PHP
-├── 2-Bimestre/
-│   ├── Lista-03_Tabelas-e-Estilos/        # Exercícios sobre tabelas e estilos (HTML/CSS)
-│   ├── Lista-04_Validação-de-Dados/       # Exercícios de validação de dados em formulários
-│   ├── PDFs/
-│   │   └── slides-html-css.pdf            # Slides de HTML e CSS
-├── 3-Bimestre/
-│   ├── Lista-05_Banco-de-Dados/           # Exercícios de banco de dados
-│   ├── Lista-06_Autenticacao/             # Exercícios sobre autenticação de usuários
-│   ├── PDFs/
-│   │   └── guia-sql-basico.pdf            # Guia básico de SQL
+│   │   ├── 1° BD I - C H BT.pdf
+│   │   └── 1ª Aula - Introdução ao banco de dados.pdf
 │   └── SQL/
-│       ├── banco-alunos.sql               # Script SQL para banco de alunos
-│       └── usuarios-auth.sql              # Script SQL para autenticação de usuários
+│       └── exemplos-iniciais.sql
+│
+├── 2-Bimestre/
+│   ├── Lista de Exercicios/
+│   ├── PDFs/
+│   └── SQL/
+│       └── comandos-avancados.sql
+│
+├── 3-Bimestre/
+│   ├── Lista de Exercicios/
+│   ├── PDFs/
+│   └── SQL/
+│       └── consultas-complexas.sql
 │
 ├── 4-Bimestre/
-│   ├── Projeto-Final_CRUD-PHP-MySQL/      # Projeto final: CRUD completo em PHP e MySQL
-│   ├── Lista-07_Projeto-Completo/         # Lista de exercícios do projeto completo
+│   ├── Lista de Exercicios/
 │   ├── PDFs/
-│   │   └── documento-projeto-final.pdf    # Documentação do projeto final
 │   └── SQL/
-│       └── crud-db.sql                    # Script SQL do banco do projeto final│
-└── README.md                              # Este arquivo de documentação
+│       └── projeto-final.sql
+│
+└── README.md
 ```
+
+### Descrição das Pastas
+
+- **1-Bimestre/**, **2-Bimestre/**, **3-Bimestre/**, **4-Bimestre/**  
+  Cada pasta representa um bimestre do curso, contendo os materiais e exercícios correspondentes ao período.
+
+- **Lista de Exercicios/**  
+  Subpasta de cada bimestre com listas de exercícios práticos, geralmente envolvendo criação, manipulação e consulta de bancos de dados.
+
+- **PDFs/**  
+  Materiais de apoio, slides e apostilas em PDF utilizados nas aulas de cada bimestre.
+
+- **SQL/**  
+  Scripts SQL prontos para serem executados em seu SGBD (MySQL, SQL Server, etc), incluindo exemplos, comandos avançados, consultas e projetos.
 
 ---
 
@@ -47,47 +65,41 @@ etec-prog-web-2023/
 Este repositório reúne:
 
 - **Listas de Exercícios:**  
-  Práticas de programação em PHP, HTML, CSS, SQL e autenticação, organizadas por tema e bimestre.
-
-- **Projetos:**  
-  Projetos práticos, incluindo um CRUD completo integrando PHP e MySQL.
-
-- **Materiais de Apoio:**  
-  Apostilas, slides e guias em PDF para consulta e aprofundamento dos conteúdos.
+  Exercícios práticos de SQL, modelagem de dados, normalização, consultas, manipulação de dados e projetos interdisciplinares.
 
 - **Scripts SQL:**  
-  Scripts prontos para criação e manipulação de bancos de dados utilizados nos exercícios e projetos.
+  Arquivos `.sql` para criação de bancos, tabelas, inserção de dados, consultas e projetos completos.
+
+- **Materiais de Aula:**  
+  PDFs das aulas, apostilas e materiais complementares para consulta e revisão.
 
 ---
 
 ## 💡 Objetivo
 
-- Centralizar todos os materiais do curso de Programação Web.
-- Facilitar o estudo, revisão e prática dos conteúdos.
+- Centralizar todos os materiais do curso de Banco de Dados.
+- Facilitar o estudo, revisão e prática dos conteúdos, especialmente com arquivos SQL prontos para uso.
 - Servir como portfólio de aprendizado e evolução ao longo do curso.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **PHP:**  
-  Linguagem principal para desenvolvimento web backend.
-
-- **HTML & CSS:**  
-  Estruturação e estilização das páginas web.
-
 - **SQL:**  
-  Manipulação de bancos de dados relacionais (MySQL).
+  Linguagem principal para os exercícios de criação, manipulação e consulta de bancos de dados relacionais.
 
-- **Markdown & PDF:**  
-  Documentação e materiais de apoio.
+- **Markdown:**  
+  Para documentação e anotações.
+
+- **PDF:**  
+  Materiais de apoio e slides das aulas.
 
 ---
 
 ## 🚀 Como Utilizar
 
-1. Navegue pelas pastas de cada bimestre para acessar os exercícios e materiais.
-2. Abra os arquivos `.php` e `.sql` para visualizar e executar os códigos em seu ambiente local.
+1. Navegue pelas pastas de cada bimestre para acessar os exercícios, materiais e scripts SQL.
+2. Abra os arquivos `.sql` para visualizar e executar os comandos no seu SGBD preferido (MySQL, SQL Server, etc).
 3. Consulte os PDFs para revisar os conceitos teóricos e exemplos práticos.
 
 ---
@@ -98,4 +110,4 @@ Este repositório é um registro pessoal de estudos, mas sugestões de melhoria 
 
 ---
 
-**Bons estudos e sucesso na sua jornada**
+**Bons estudos e sucesso na sua jornada em Banco**
